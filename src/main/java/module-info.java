@@ -7,4 +7,7 @@ module com.example.app {
 
     opens com.example.app to javafx.fxml;
     exports com.example.app;
+
+    opens com.example.partie1 to javafx.fxml;
+    exports com.example.partie1;
 }
